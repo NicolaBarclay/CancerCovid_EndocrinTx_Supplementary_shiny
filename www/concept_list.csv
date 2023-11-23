@@ -1,0 +1,336 @@
+Name,Concept ID,Concept Code,Concept Name,Domain,Vocabulary
+ Aromatase Inhibitors,1348265,84857,anastrozole,Drug,RxNorm
+ Aromatase Inhibitors,1398399,258494,exemestane,Drug,RxNorm
+ Aromatase Inhibitors,1315946,72965,letrozole,Drug,RxNorm
+ Bisphosphonates,40174364,904932,ibandronic acid 150 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,40174372,904946,ibandronic acid 50 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,45773186,700106002,Ibandronic acid therapy,Procedure,SNOMED
+ Bisphosphonates,41340477,OMOP2538439,2 ML Ibandronate 1 MG/ML Injectable Solution,Drug,RxNorm Extension
+ Bisphosphonates,35778590,OMOP2780051,2 ML Ibandronate 1 MG/ML Injectable Solution by Accord,Drug,RxNorm Extension
+ Bisphosphonates,41348692,OMOP2546654,3 ML Ibandronate 1 MG/ML Injectable Solution,Drug,RxNorm Extension
+ Bisphosphonates,40717365,OMOP4740335,3 ML Ibandronate 1 MG/ML Injectable Solution [Bonviva] by Atnahs,Drug,RxNorm Extension
+ Bisphosphonates,41360484,OMOP2558446,6 ML Ibandronate 1 MG/ML Injectable Solution,Drug,RxNorm Extension
+ Bisphosphonates,1512480,115264,ibandronate,Drug,RxNorm
+ Bisphosphonates,40755076,OMOP4702652,Ibandronate 150 MG Oral Tablet [Bonviva] by Atnahs,Drug,RxNorm Extension
+ Bisphosphonates,21173845,OMOP261465,Ibandronate 150 MG Oral Tablet [Quodixor] by Aspire,Drug,RxNorm Extension
+ Bisphosphonates,40755066,OMOP4702662,Ibandronate 50 MG Oral Tablet [Bondronat] by Atnahs,Drug,RxNorm Extension
+ Bisphosphonates,21134398,OMOP261409,Ibandronate 50 MG Oral Tablet [Iasibon] by Aspire,Drug,RxNorm Extension
+ Bisphosphonates,21128048,OMOP323794,100 ML zoledronic acid 0.04 MG/ML Injectable Solution,Drug,RxNorm Extension
+ Bisphosphonates,21118274,OMOP323822,100 ML zoledronic acid 0.05 MG/ML Injectable Solution,Drug,RxNorm Extension
+ Bisphosphonates,35786460,OMOP2787921,100 ML zoledronic acid 0.05 MG/ML Injectable Solution [Aclasta] by Novartis,Drug,RxNorm Extension
+ Bisphosphonates,41359781,OMOP2557743,5 ML zoledronic acid 0.8 MG/ML Injectable Solution,Drug,RxNorm Extension
+ Bisphosphonates,35780947,OMOP2782408,5 ML zoledronic acid 0.8 MG/ML Injectable Solution by Dr Reddy's,Drug,RxNorm Extension
+ Bisphosphonates,21166468,OMOP308431,5 ML zoledronic acid 0.8 MG/ML Injection [Zometa] by Novartis,Drug,RxNorm Extension
+ Bisphosphonates,40716122,OMOP4741022,5 ML zoledronic acid 0.8 MG/ML Injection by Accord,Drug,RxNorm Extension
+ Bisphosphonates,1524674,77655,zoledronic acid,Drug,RxNorm
+ Bisphosphonates,45763660,700105003,Zoledronic acid therapy,Procedure,SNOMED
+ Bisphosphonates,21604158,M05BB01,"etidronic acid and calcium, sequential; oral",Drug,ATC
+ Bisphosphonates,21604149,M05BA01,etidronic acid; systemic,Drug,ATC
+ Bisphosphonates,41356611,OMOP2554573,5 ML Clodronic Acid 60 MG/ML Injectable Solution,Drug,RxNorm Extension
+ Bisphosphonates,19024249,3350,clodronic acid,Drug,RxNorm
+ Bisphosphonates,19024276,331729,clodronic acid 400 MG,Drug,RxNorm
+ Bisphosphonates,21163221,OMOP410633,Clodronic Acid 400 MG [Bonefos],Drug,RxNorm Extension
+ Bisphosphonates,21114059,OMOP410634,Clodronic Acid 400 MG [Clasteon],Drug,RxNorm Extension
+ Bisphosphonates,21133541,OMOP410631,Clodronic Acid 400 MG [Loron],Drug,RxNorm Extension
+ Bisphosphonates,19024250,199711,clodronic acid 400 MG Oral Capsule,Drug,RxNorm
+ Bisphosphonates,21055126,OMOP410656,Clodronic Acid 400 MG Oral Capsule [Bonefos],Drug,RxNorm Extension
+ Bisphosphonates,21094358,OMOP410657,Clodronic Acid 400 MG Oral Capsule [Bonefos] by Bayer,Drug,RxNorm Extension
+ Bisphosphonates,21163222,OMOP410681,Clodronic Acid 400 MG Oral Capsule [Clasteon],Drug,RxNorm Extension
+ Bisphosphonates,40735862,OMOP4722231,Clodronic Acid 400 MG Oral Capsule [Clasteon] by Kent,Drug,RxNorm Extension
+ Bisphosphonates,21064961,OMOP410651,Clodronic Acid 400 MG Oral Capsule [Loron],Drug,RxNorm Extension
+ Bisphosphonates,21123673,OMOP410652,Clodronic Acid 400 MG Oral Capsule [Loron] by Roche,Drug,RxNorm Extension
+ Bisphosphonates,19087663,331730,clodronic acid 520 MG,Drug,RxNorm
+ Bisphosphonates,21172979,OMOP410692,Clodronic Acid 520 MG [Loron],Drug,RxNorm Extension
+ Bisphosphonates,19024271,199712,clodronic acid 520 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,21133542,OMOP410697,Clodronic Acid 520 MG Oral Tablet [Loron],Drug,RxNorm Extension
+ Bisphosphonates,21104285,OMOP410700,Clodronic Acid 520 MG Oral Tablet [Loron] by Intrapharm,Drug,RxNorm Extension
+ Bisphosphonates,19024278,332889,clodronic acid 60 MG/ML,Drug,RxNorm
+ Bisphosphonates,19061136,248086,clodronic acid 60 MG/ML Injectable Solution,Drug,RxNorm
+ Bisphosphonates,19088847,332890,clodronic acid 800 MG,Drug,RxNorm
+ Bisphosphonates,21025695,OMOP410708,Clodronic Acid 800 MG [Bonefos],Drug,RxNorm Extension
+ Bisphosphonates,21172981,OMOP410709,Clodronic Acid 800 MG [Clasteon],Drug,RxNorm Extension
+ Bisphosphonates,19024275,251233,clodronic acid 800 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,21045323,OMOP410722,Clodronic Acid 800 MG Oral Tablet [Bonefos],Drug,RxNorm Extension
+ Bisphosphonates,21143477,OMOP410726,Clodronic Acid 800 MG Oral Tablet [Bonefos] by Bayer,Drug,RxNorm Extension
+ Bisphosphonates,21035456,OMOP410745,Clodronic Acid 800 MG Oral Tablet [Clasteon],Drug,RxNorm Extension
+ Bisphosphonates,21172983,OMOP410746,Clodronic Acid 800 MG Oral Tablet [Clasteon] by Beacon,Drug,RxNorm Extension
+ Bisphosphonates,36216647,1153361,clodronic acid Injectable Product,Drug,RxNorm
+ Bisphosphonates,40025688,377193,clodronic acid Injectable Solution,Drug,RxNorm
+ Bisphosphonates,40025696,374987,clodronic acid Oral Capsule,Drug,RxNorm
+ Bisphosphonates,21074912,OMOP410625,Clodronic Acid Oral Capsule [Bonefos],Drug,RxNorm Extension
+ Bisphosphonates,21094356,OMOP410626,Clodronic Acid Oral Capsule [Clasteon],Drug,RxNorm Extension
+ Bisphosphonates,21143470,OMOP410622,Clodronic Acid Oral Capsule [Loron],Drug,RxNorm Extension
+ Bisphosphonates,36216648,1153362,clodronic acid Oral Product,Drug,RxNorm
+ Bisphosphonates,40025697,376349,clodronic acid Oral Tablet,Drug,RxNorm
+ Bisphosphonates,21172976,OMOP410628,Clodronic Acid Oral Tablet [Bonefos],Drug,RxNorm Extension
+ Bisphosphonates,21045312,OMOP410629,Clodronic Acid Oral Tablet [Clasteon],Drug,RxNorm Extension
+ Bisphosphonates,21074913,OMOP410627,Clodronic Acid Oral Tablet [Loron],Drug,RxNorm Extension
+ Bisphosphonates,36216649,1153363,clodronic acid Pill,Drug,RxNorm
+ Bisphosphonates,21604150,M05BA02,clodronic acid; systemic,Drug,ATC
+ Bisphosphonates,40173590,904419,alendronic acid 10 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,40173602,904425,alendronic acid 5 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,40173612,904431,alendronic acid 70 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,19011064,11476,tiludronic acid,Drug,RxNorm
+ Bisphosphonates,40174548,905006,tiludronic acid 200 MG,Drug,RxNorm
+ Bisphosphonates,40174551,905009,tiludronic acid 200 MG [Skelid],Drug,RxNorm
+ Bisphosphonates,40174549,905008,tiludronic acid 200 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,40174550,905011,tiludronic acid 200 MG Oral Tablet [Skelid],Drug,RxNorm
+ Bisphosphonates,21094718,OMOP252668,tiludronic acid 200 MG Oral Tablet [Skelid] by Sanofi,Drug,RxNorm Extension
+ Bisphosphonates,36224266,1162097,tiludronic acid Oral Product,Drug,RxNorm
+ Bisphosphonates,40174552,905007,tiludronic acid Oral Tablet,Drug,RxNorm
+ Bisphosphonates,40174553,905010,tiludronic acid Oral Tablet [Skelid],Drug,RxNorm
+ Bisphosphonates,36224267,1162098,tiludronic acid Pill,Drug,RxNorm
+ Bisphosphonates,21604153,M05BA05,tiludronic acid; oral,Drug,ATC
+ Bisphosphonates,40174364,904932,ibandronic acid 150 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,40174372,904946,ibandronic acid 50 MG Oral Tablet,Drug,RxNorm
+ Bisphosphonates,45773186,700106002,Ibandronic acid therapy,Procedure,SNOMED
+ Bisphosphonates,40993445,OMOP2191407,Calcium 1250 MG / risedronic acid 35 MG Oral Tablet,Drug,RxNorm Extension
+ Bisphosphonates,19115051,55685,risedronic acid,Drug,RxNorm
+ Bisphosphonates,43159055,OMOP465847,risedronic acid 35 MG Delayed Release Oral Tablet [Actonel],Drug,RxNorm Extension
+ Bisphosphonates,19018544,1895,calcium,Drug,RxNorm
+ Bisphosphonates,40952039,OMOP2150001,Calcium 1060 MG,Drug,RxNorm Extension
+ Bisphosphonates,41202368,OMOP2400330,Calcium 1250 MG,Drug,RxNorm Extension
+ Bisphosphonates,41202376,OMOP2400338,Calcium 500 MG,Drug,RxNorm Extension
+ Bisphosphonates,41077004,OMOP2274966,Calcium 62.2 MG,Drug,RxNorm Extension
+ Bisphosphonates,41233406,OMOP2431368,Calcium 625 MG,Drug,RxNorm Extension
+ Bisphosphonates,951469,214342,calcium acetate,Drug,RxNorm
+ Bisphosphonates,19058549,47610,calcium alginate,Drug,RxNorm
+ Bisphosphonates,42903566,1313228,calcium aluminosilicate,Drug,RxNorm
+ Bisphosphonates,42904212,1358171,calcium aluminum borosilicate,Drug,RxNorm
+ Bisphosphonates,40222115,994438,calcium amino acid chelate,Drug,RxNorm
+ Bisphosphonates,42904023,1333425,calcium arsenate,Drug,RxNorm
+ Bisphosphonates,1319219,142407,calcium ascorbate,Drug,RxNorm
+ Bisphosphonates,19071869,287637,calcium aspartate,Drug,RxNorm
+ Bisphosphonates,43526455,1373352,calcium bicarbonate,Drug,RxNorm
+ Bisphosphonates,19018639,195983,calcium bromide,Drug,RxNorm
+ Bisphosphonates,19018547,1902,calcium carbimide,Drug,RxNorm
+ Bisphosphonates,19035704,1897,calcium carbonate,Drug,RxNorm
+ Bisphosphonates,19097016,349908,"calcium carbonate, precipitated",Drug,RxNorm
+ Bisphosphonates,45776278,1542454,calcium chlorate dihydrate,Drug,RxNorm
+ Bisphosphonates,19036781,1901,calcium chloride,Drug,RxNorm
+ Bisphosphonates,19086233,221069,"calcium chloride, dihydration",Drug,RxNorm
+ Bisphosphonates,19058572,47613,calcium citrate,Drug,RxNorm
+ Bisphosphonates,19127547,73409,calcium citrate malate,Drug,RxNorm
+ Bisphosphonates,19014942,317206,calcium creosotate,Drug,RxNorm
+ Bisphosphonates,19018601,1905,calcium fluoride,Drug,RxNorm
+ Bisphosphonates,19112556,47617,calcium galactogluconate bromide,Drug,RxNorm
+ Bisphosphonates,19097867,25806,calcium glubionate,Drug,RxNorm
+ Bisphosphonates,19018602,1907,calcium glucarate,Drug,RxNorm
+ Bisphosphonates,19058867,47618,calcium gluceptate,Drug,RxNorm
+ Bisphosphonates,19037038,1908,calcium gluconate,Drug,RxNorm
+ Bisphosphonates,1337159,1909,calcium glycerophosphate,Drug,RxNorm
+ Bisphosphonates,42900360,1311304,calcium hexafluorosilicate,Drug,RxNorm
+ Bisphosphonates,43533002,1428413,calcium hydride,Drug,RxNorm
+ Bisphosphonates,1337191,1910,calcium hydroxide,Drug,RxNorm
+ Bisphosphonates,43532261,1424671,calcium hypophosphite,Drug,RxNorm
+ Bisphosphonates,19090171,235273,calcium iodide,Drug,RxNorm
+ Bisphosphonates,19014944,317207,calcium iodized,Drug,RxNorm
+ Bisphosphonates,42903945,1316581,calcium ion,Drug,RxNorm
+ Bisphosphonates,19058896,47622,calcium lactate,Drug,RxNorm
+ Bisphosphonates,19090802,235784,calcium lactobionate,Drug,RxNorm
+ Bisphosphonates,19058971,47624,calcium levulinate,Drug,RxNorm
+ Bisphosphonates,43526046,1421150,calcium malate,Drug,RxNorm
+ Bisphosphonates,19090806,235786,calcium orotate,Drug,RxNorm
+ Bisphosphonates,44784716,1485048,calcium oxalate,Drug,RxNorm
+ Bisphosphonates,19007595,28728,calcium oxide,Drug,RxNorm
+ Bisphosphonates,43532262,1426443,calcium peroxide,Drug,RxNorm
+ Bisphosphonates,19037401,1919,calcium phosphate,Drug,RxNorm
+ Bisphosphonates,19058973,47627,calcium phosphate dibasic,Drug,RxNorm
+ Bisphosphonates,940426,20063,calcium polycarbophil,Drug,RxNorm
+ Bisphosphonates,19112563,47630,calcium polystyrene sulfonate product,Drug,RxNorm
+ Bisphosphonates,43012244,1362901,calcium pyrophosphate,Drug,RxNorm
+ Bisphosphonates,40168899,884629,calcium pyruvate,Drug,RxNorm
+ Bisphosphonates,19056480,236693,calcium saccharate,Drug,RxNorm
+ Bisphosphonates,42900373,1311526,calcium silicate,Drug,RxNorm
+ Bisphosphonates,19112567,47633,calcium stearate,Drug,RxNorm
+ Bisphosphonates,19001345,102792,calcium sulfaloxate,Drug,RxNorm
+ Bisphosphonates,19037446,1925,calcium sulfate,Drug,RxNorm
+ Bisphosphonates,19135846,90521,calcium sulfide,Drug,RxNorm
+ Bisphosphonates,1302788,273888,calcium threonate,Drug,RxNorm
+Breast Cancer,3655521,865954003,Adenocarcinoma of breast,Condition,SNOMED
+Breast Cancer,4117852,286896005,"Carcinoma breast - lower, outer quadrant",Condition,SNOMED
+Breast Cancer,4116071,254838004,Carcinoma of breast,Condition,SNOMED
+Breast Cancer,4113638,286897001,Carcinoma of breast - axillary tail,Condition,SNOMED
+Breast Cancer,4113637,286894008,"Carcinoma of breast - lower, inner quadrant",Condition,SNOMED
+Breast Cancer,4117850,286893002,"Carcinoma of breast - upper, inner quadrant",Condition,SNOMED
+Breast Cancer,4117851,286895009,"Carcinoma of breast - upper, outer quadrant",Condition,SNOMED
+Breast Cancer,46270923,708921005,Carcinoma of central portion of breast,Condition,SNOMED
+Breast Cancer,40486563,447782002,Carcinoma of female breast,Condition,SNOMED
+Breast Cancer,4157448,372096000,Carcinoma of male breast,Condition,SNOMED
+Breast Cancer,4110861,254843006,Familial cancer of breast,Condition,SNOMED
+Breast Cancer,35624616,767444009,"Germline BRCA-mutated, HER2-negative metastatic breast cancer",Condition,SNOMED
+Breast Cancer,4142116,427685000,HER2-positive carcinoma of breast,Condition,SNOMED
+Breast Cancer,4216891,417181009,Hormone receptor positive malignant neoplasm of breast,Condition,SNOMED
+Breast Cancer,4330242,431396003,Human epidermal growth factor 2 negative carcinoma of breast,Condition,SNOMED
+Breast Cancer,37208322,1080091000119100,Infiltrating ductal carcinoma of axillary tail of left female breast,Condition,SNOMED
+Breast Cancer,37208326,1080171000119100,Infiltrating ductal carcinoma of axillary tail of right female breast,Condition,SNOMED
+Breast Cancer,36717260,1080111000119108,Infiltrating ductal carcinoma of central portion of left female breast,Condition,SNOMED
+Breast Cancer,36712721,1080191000119104,Infiltrating ductal carcinoma of central portion of right female breast,Condition,SNOMED
+Breast Cancer,37208324,1080121000119101,Infiltrating ductal carcinoma of lower inner quadrant of left female breast,Condition,SNOMED
+Breast Cancer,37208328,1080201000119101,Infiltrating ductal carcinoma of lower inner quadrant of right female breast,Condition,SNOMED
+Breast Cancer,37208325,1080131000119103,Infiltrating ductal carcinoma of lower outer quadrant of left female breast,Condition,SNOMED
+Breast Cancer,37208329,1080211000119103,Infiltrating ductal carcinoma of lower outer quadrant of right female breast,Condition,SNOMED
+Breast Cancer,36712719,1080151000119109,Infiltrating ductal carcinoma of upper inner quadrant of left female breast,Condition,SNOMED
+Breast Cancer,36712722,1080231000119108,Infiltrating ductal carcinoma of upper inner quadrant of right female breast,Condition,SNOMED
+Breast Cancer,36712720,1080161000119106,Infiltrating ductal carcinoma of upper outer quadrant of left female breast,Condition,SNOMED
+Breast Cancer,36712723,1080241000119104,Infiltrating ductal carcinoma of upper outer quadrant of right female breast,Condition,SNOMED
+Breast Cancer,761170,15635761000119103,Infiltrating duct carcinoma of bilateral female breasts,Condition,SNOMED
+Breast Cancer,4237178,408643008,Infiltrating duct carcinoma of breast,Condition,SNOMED
+Breast Cancer,40492507,448952004,Infiltrating duct carcinoma of female breast,Condition,SNOMED
+Breast Cancer,759932,1080101000119105,Infiltrating duct carcinoma of left female breast,Condition,SNOMED
+Breast Cancer,759933,1080181000119102,Infiltrating duct carcinoma of right female breast,Condition,SNOMED
+Breast Cancer,4080865,278054005,Infiltrating lobular carcinoma of breast,Condition,SNOMED
+Breast Cancer,36712724,1080261000119100,Infiltrating lobular carcinoma of left female breast,Condition,SNOMED
+Breast Cancer,36712725,1080341000119105,Infiltrating lobular carcinoma of right female breast,Condition,SNOMED
+Breast Cancer,4112074,254840009,Inflammatory carcinoma of breast,Condition,SNOMED
+Breast Cancer,37017351,713609000,Invasive carcinoma of breast,Condition,SNOMED
+Breast Cancer,37310457,1082701000112100,Locally advanced breast cancer,Condition,SNOMED
+Breast Cancer,4155292,372094002,Malignant neoplasm of axillary tail of breast,Condition,SNOMED
+Breast Cancer,4091467,188156001,Malignant neoplasm of axillary tail of female breast,Condition,SNOMED
+Breast Cancer,4188544,373080008,Malignant neoplasm of breast lower inner quadrant,Condition,SNOMED
+Breast Cancer,4187848,373081007,Malignant neoplasm of breast lower outer quadrant,Condition,SNOMED
+Breast Cancer,4187849,373082000,Malignant neoplasm of breast upper inner quadrant,Condition,SNOMED
+Breast Cancer,4160780,373083005,Malignant neoplasm of breast upper outer quadrant,Condition,SNOMED
+Breast Cancer,4092511,188151006,Malignant neoplasm of central part of female breast,Condition,SNOMED
+Breast Cancer,4095741,188159008,Malignant neoplasm of ectopic site of female breast,Condition,SNOMED
+Breast Cancer,4091471,188168005,Malignant neoplasm of ectopic site of male breast,Condition,SNOMED
+Breast Cancer,4157332,372064008,Malignant neoplasm of female breast,Condition,SNOMED
+Breast Cancer,4095740,188153009,Malignant neoplasm of lower-inner quadrant of female breast,Condition,SNOMED
+Breast Cancer,4091466,188155002,Malignant neoplasm of lower-outer quadrant of female breast,Condition,SNOMED
+Breast Cancer,4157447,372095001,Malignant neoplasm of male breast,Condition,SNOMED
+Breast Cancer,4091464,188147009,Malignant neoplasm of nipple and areola of female breast,Condition,SNOMED
+Breast Cancer,4091469,188163001,Malignant neoplasm of nipple and areola of male breast,Condition,SNOMED
+Breast Cancer,4092512,188152004,Malignant neoplasm of upper-inner quadrant of female breast,Condition,SNOMED
+Breast Cancer,4091465,188154003,Malignant neoplasm of upper-outer quadrant of female breast,Condition,SNOMED
+Breast Cancer,4092513,188157005,"Malignant neoplasm, overlapping lesion of breast",Condition,SNOMED
+Breast Cancer,4112854,254844000,Malignant phyllodes tumor of breast,Condition,SNOMED
+Breast Cancer,4112853,254837009,Malignant tumor of breast,Condition,SNOMED
+Breast Cancer,35622134,763479005,Metaplastic carcinoma of breast,Condition,SNOMED
+Breast Cancer,36684950,4.59411E+14,Metastatic collecting duct carcinoma,Condition,SNOMED
+Breast Cancer,36684948,4.59391E+14,Metastatic human epidermal growth factor 2 positive carcinoma of breast,Condition,SNOMED
+Breast Cancer,40480215,444604002,Mixed ductal and lobular carcinoma of breast,Condition,SNOMED
+Breast Cancer,40480651,444712000,Mucinous carcinoma of breast,Condition,SNOMED
+Breast Cancer,133711,109886000,Overlapping malignant neoplasm of female breast,Condition,SNOMED
+Breast Cancer,4003684,109887009,Overlapping malignant neoplasm of male breast,Condition,SNOMED
+Breast Cancer,37016439,4.5221E+13,Primary invasive malignant neoplasm of female breast,Condition,SNOMED
+Breast Cancer,36716497,722524005,Primary invasive pleomorphic lobular carcinoma of breast,Condition,SNOMED
+Breast Cancer,37018660,9.6291E+13,Primary malignant inflammatory neoplasm of female breast,Condition,SNOMED
+Breast Cancer,433148,93680004,Primary malignant neoplasm of areola of female breast,Condition,SNOMED
+Breast Cancer,436050,93681000,Primary malignant neoplasm of areola of male breast,Condition,SNOMED
+Breast Cancer,441513,372092003,Primary malignant neoplasm of axillary tail of breast,Condition,SNOMED
+Breast Cancer,36684817,3.53421E+14,Primary malignant neoplasm of axillary tail of left female breast,Condition,SNOMED
+Breast Cancer,36684820,3.53501E+14,Primary malignant neoplasm of axillary tail of right female breast,Condition,SNOMED
+Breast Cancer,36712934,15635801000119106,Primary malignant neoplasm of bilateral female breasts,Condition,SNOMED
+Breast Cancer,4162253,372137005,Primary malignant neoplasm of breast,Condition,SNOMED
+Breast Cancer,4187851,373090000,Primary malignant neoplasm of breast lower inner quadrant,Condition,SNOMED
+Breast Cancer,4188545,373091001,Primary malignant neoplasm of breast lower outer quadrant,Condition,SNOMED
+Breast Cancer,4158563,373089009,Primary malignant neoplasm of breast upper inner quadrant,Condition,SNOMED
+Breast Cancer,4187850,373088001,Primary malignant neoplasm of breast upper outer quadrant,Condition,SNOMED
+Breast Cancer,3662037,1082901000112103,Primary malignant neoplasm of breast with axillary lymph node invasion,Condition,SNOMED
+Breast Cancer,432845,93745008,Primary malignant neoplasm of central portion of female breast,Condition,SNOMED
+Breast Cancer,36684819,3.53441E+14,Primary malignant neoplasm of central portion of female left breast,Condition,SNOMED
+Breast Cancer,36684821,3.53521E+14,Primary malignant neoplasm of central portion of female right breast,Condition,SNOMED
+Breast Cancer,4246036,93776002,Primary malignant neoplasm of ectopic female breast tissue,Condition,SNOMED
+Breast Cancer,4246810,93777006,Primary malignant neoplasm of ectopic male breast tissue,Condition,SNOMED
+Breast Cancer,137809,93796005,Primary malignant neoplasm of female breast,Condition,SNOMED
+Breast Cancer,36684818,3.53431E+14,Primary malignant neoplasm of female left breast,Condition,SNOMED
+Breast Cancer,765123,3.53511E+14,Primary malignant neoplasm of female right breast,Condition,SNOMED
+Breast Cancer,37208047,3.54491E+14,Primary malignant neoplasm of left male breast,Condition,SNOMED
+Breast Cancer,432263,93874009,Primary malignant neoplasm of lower inner quadrant of female breast,Condition,SNOMED
+Breast Cancer,441515,93876006,Primary malignant neoplasm of lower outer quadrant of female breast,Condition,SNOMED
+Breast Cancer,135489,93884005,Primary malignant neoplasm of male breast,Condition,SNOMED
+Breast Cancer,442127,93924008,Primary malignant neoplasm of nipple of female breast,Condition,SNOMED
+Breast Cancer,442126,93925009,Primary malignant neoplasm of nipple of male breast,Condition,SNOMED
+Breast Cancer,37208048,3.54591E+14,Primary malignant neoplasm of right male breast,Condition,SNOMED
+Breast Cancer,440956,94115006,Primary malignant neoplasm of upper inner quadrant of female breast,Condition,SNOMED
+Breast Cancer,436353,94117003,Primary malignant neoplasm of upper outer quadrant of female breast,Condition,SNOMED
+Breast Cancer,36717587,722832009,Primary solid papillary carcinoma with invasion of breast,Condition,SNOMED
+Breast Cancer,4112073,254839007,Scirrhous carcinoma of breast,Condition,SNOMED
+Breast Cancer,45768522,706970001,Triple-negative breast cancer,Condition,SNOMED
+First generation antiandrogens,1344381,83008,bicalutamide,Drug,RxNorm
+First generation antiandrogens,21603837,L02BB03,bicalutamide; oral,Drug,ATC
+First generation antiandrogens,1315286,31805,nilutamide,Drug,RxNorm
+First generation antiandrogens,21603836,L02BB02,nilutamide; oral,Drug,ATC
+First generation antiandrogens,21603835,L02BB01,flutamide; oral,Drug,ATC
+First generation antiandrogens,1356461,4508,flutamide,Drug,RxNorm
+GnRH agonists,1366310,50610,goserelin,Drug,RxNorm
+GnRH agonists,1366773,50975,histrelin,Drug,RxNorm
+GnRH agonists,21603825,L02AE02,"leuprorelin; implant, parenteral",Drug,ATC
+GnRH agonists,1343039,38782,triptorelin,Drug,RxNorm
+GnRH agonists,35746979,OMOP2748440,Triptorelin 11.25 MG Injectable Solution [Decapeptyl SR] by Ipsen,Drug,RxNorm Extension
+GnRH agonists,44083846,OMOP1078477,Triptorelin 11.25 MG Injectable Suspension,Drug,RxNorm Extension
+GnRH agonists,40726621,OMOP4730496,Triptorelin 11.25 MG Injectable Suspension [Salvacyl] by Ipsen,Drug,RxNorm Extension
+GnRH agonists,36407426,OMOP3099468,Triptorelin 22.5 MG Injectable Solution,Drug,RxNorm Extension
+GnRH agonists,35759461,OMOP2760922,Triptorelin 22.5 MG Injectable Suspension [Decapeptyl SR] by Ipsen,Drug,RxNorm Extension
+GnRH agonists,36885850,OMOP1003222,Triptorelin 3 MG Injectable Suspension,Drug,RxNorm Extension
+GnRH agonists,35763668,OMOP2765129,Triptorelin 3 MG Injectable Suspension [Decapeptyl SR] by Ipsen,Drug,RxNorm Extension
+GnRH agonists,40864986,OMOP2062948,Triptorelin 3.75 MG Injectable Solution,Drug,RxNorm Extension
+GnRH agonists,40726613,OMOP4730504,Triptorelin 3.75 MG Injectable Suspension [GONAPEPTYL] by Ferring,Drug,RxNorm Extension
+GnRH agonists,1351541,42375,leuprolide,Drug,RxNorm
+GnRH agonists,44176247,OMOP3052970,Leuprolide 11.3 MG Injectable Solution,Drug,RxNorm Extension
+GnRH agonists,36406378,OMOP3098420,Leuprolide 11.3 MG Injectable Solution [Prostap] by DE,Drug,RxNorm Extension
+GnRH agonists,44123199,OMOP1117830,Leuprolide 11.3 MG Injectable Suspension,Drug,RxNorm Extension
+GnRH agonists,35774257,OMOP2775718,Leuprolide 11.3 MG Injectable Suspension [Prostap] by Takeda,Drug,RxNorm Extension
+GnRH agonists,35765655,OMOP2767116,Leuprolide 22.5 MG Injectable Suspension [Lutrate] by AMCo,Drug,RxNorm Extension
+GnRH agonists,41022332,OMOP2220294,Leuprolide 3.75 MG Injectable Solution,Drug,RxNorm Extension
+GnRH agonists,35749091,OMOP2750552,Leuprolide 3.75 MG Injectable Solution [Prostap] by Takeda,Drug,RxNorm Extension
+GnRH agonists,44045540,OMOP1040171,Leuprolide 3.75 MG Injectable Suspension,Drug,RxNorm Extension
+GnRH agonists,40742707,OMOP4714436,Leuprolide 3.75 MG Injectable Suspension [Prostap] by Takeda,Drug,RxNorm Extension
+GnRH agonists,42731826,OMOP2721740,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack,Drug,RxNorm Extension
+GnRH agonists,36897742,OMOP993018,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack [Zolacos],Drug,RxNorm Extension
+GnRH agonists,43298256,OMOP573012,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack [Zolacos] box of 1,Drug,RxNorm Extension
+GnRH agonists,43298367,OMOP573097,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack box of 1,Drug,RxNorm Extension
+GnRH agonists,42731869,OMOP2729973,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 3.6 MG Drug Implant) } Pack,Drug,RxNorm Extension
+GnRH agonists,36897743,OMOP993485,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 3.6 MG Drug Implant) } Pack [Zolacos],Drug,RxNorm Extension
+GnRH agonists,43298660,OMOP573478,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 3.6 MG Drug Implant) } Pack [Zolacos] box of 1,Drug,RxNorm Extension
+GnRH agonists,43298268,OMOP573141,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 3.6 MG Drug Implant) } Pack box of 1,Drug,RxNorm Extension
+GnRH agonists,43522820,OMOP2809935,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack,Drug,RxNorm Extension
+GnRH agonists,43522804,OMOP2809919,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack [Eligard],Drug,RxNorm Extension
+GnRH agonists,43522618,OMOP2809733,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack [Eligard] box of 1,Drug,RxNorm Extension
+GnRH agonists,43522578,OMOP2809693,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack [Eligard] box of 1 by Tolmar,Drug,RxNorm Extension
+GnRH agonists,43522701,OMOP2809816,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack box of 1,Drug,RxNorm Extension
+GnRH agonists,43522819,OMOP2809934,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 7.5 MG Injection) } Pack,Drug,RxNorm Extension
+GnRH agonists,43522580,OMOP2809695,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 7.5 MG Injection) } Pack [Eligard],Drug,RxNorm Extension
+GnRH agonists,43522567,OMOP2809682,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 7.5 MG Injection) } Pack [Eligard] box of 1,Drug,RxNorm Extension
+GnRH agonists,43522930,OMOP2810045,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 7.5 MG Injection) } Pack [Eligard] box of 1 by Tolmar,Drug,RxNorm Extension
+GnRH agonists,43522896,OMOP2810011,{28 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 7.5 MG Injection) } Pack box of 1,Drug,RxNorm Extension
+GnRH agonists,42731702,OMOP2731326,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack,Drug,RxNorm Extension
+GnRH agonists,36897627,OMOP1005265,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack [Zolacos],Drug,RxNorm Extension
+GnRH agonists,43298378,OMOP573196,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack [Zolacos] box of 1,Drug,RxNorm Extension
+GnRH agonists,43298526,OMOP573026,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Goserelin 10.8 MG Drug Implant) } Pack box of 1,Drug,RxNorm Extension
+GnRH agonists,43522811,OMOP2809926,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack,Drug,RxNorm Extension
+GnRH agonists,43522706,OMOP2809821,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack [Eligard],Drug,RxNorm Extension
+GnRH agonists,43522921,OMOP2810036,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack [Eligard] box of 1,Drug,RxNorm Extension
+GnRH agonists,43522528,OMOP2809643,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack [Eligard] box of 1 by Tolmar,Drug,RxNorm Extension
+GnRH agonists,43522648,OMOP2809763,{84 (bicalutamide 50 MG Oral Tablet) / 1 (Leuprolide 22.5 MG Injection) } Pack box of 1,Drug,RxNorm Extension
+GnRH LHRH Antagonists,19058410,475230,degarelix,Drug,RxNorm
+GnRH LHRH Antagonists,21046433,OMOP265690,degarelix 120 MG Injection [Firmagon] by Ferring,Drug,RxNorm Extension
+GnRH LHRH Antagonists,1718077,1812350,degarelix 80 MG,Drug,RxNorm
+GnRH LHRH Antagonists,44123524,OMOP1118155,degarelix 80 MG Injectable Solution,Drug,RxNorm Extension
+GnRH LHRH Antagonists,40750544,OMOP4706716,degarelix 80 MG Injectable Solution [Firmagon] by Ferring,Drug,RxNorm Extension
+GnRH LHRH Antagonists,44120601,OMOP1115232,degarelix Injectable Solution,Drug,RxNorm Extension
+GnRH LHRH Antagonists,46244276,e30c642b-4257-46f5-978f-dc715f8843d2,degarelix KIT [firmagon],Drug,SPL
+GnRH LHRH Antagonists,21603847,L02BX02,degarelix; parenteral,Drug,ATC
+ Osteopenia,4195039,312894000,Osteopenia,Condition,SNOMED
+ Osteoporosis,80502,64859006,Osteoporosis,Condition,SNOMED
+Prostate Cancer,37311683,822970008,Acinar cell cystadenocarcinoma of prostate,Condition,SNOMED
+Prostate Cancer,4161028,399490008,Adenocarcinoma of prostate,Condition,SNOMED
+Prostate Cancer,4116087,254900004,Carcinoma of prostate,Condition,SNOMED
+Prostate Cancer,4082919,278060005,Endometrioid carcinoma of prostate,Condition,SNOMED
+Prostate Cancer,37395835,715412008,Familial prostate cancer,Condition,SNOMED
+Prostate Cancer,4141960,427492003,Hormone refractory prostate cancer,Condition,SNOMED
+Prostate Cancer,36716186,722103009,Hormone sensitive prostate cancer,Condition,SNOMED
+Prostate Cancer,37311236,823017009,Infiltrating duct carcinoma of prostate,Condition,SNOMED
+Prostate Cancer,4163261,399068003,Malignant tumor of prostate,Condition,SNOMED
+Prostate Cancer,36684947,4.59381E+14,Metastatic castration-resistant prostate cancer,Condition,SNOMED
+Prostate Cancer,200962,93974005,Primary malignant neoplasm of prostate,Condition,SNOMED
+Prostate Cancer,4288534,396198006,Small cell carcinoma of prostate,Condition,SNOMED
+Prostate Cancer,4164017,399590005,Squamous cell carcinoma of prostate,Condition,SNOMED
+Second generation antiandrogens,42900250,1307298,enzalutamide,Drug,RxNorm
+Second generation antiandrogens,45893476,L02BB04,enzalutamide; oral,Drug,ATC
+Second generation antiandrogens,715835,L02BB06,darolutamide; oral,Drug,ATC
+Second generation antiandrogens,1361291,2180325,darolutamide,Drug,RxNorm
+Second generation antiandrogens,963987,1999574,apalutamide,Drug,RxNorm
+Second generation antiandrogens,40239056,1100072,abiraterone,Drug,RxNorm
+Second generation antiandrogens,40253469,L02BX03,abiraterone; oral,Drug,ATC
+ Tamoxifen,1436678,10324,tamoxifen,Drug,RxNorm
