@@ -32,17 +32,31 @@ ui <- dashboardPage(
       ),
       menuItem(
         text = "Characteristics",
-        tabName = "char",
+        tabName = "characteristics",
         menuSubItem(
-          text = "Overall Demographics",
-          tabName = "demographics"
+          text = "Breast Characteristics",
+          tabName = "breast_characteristics"
         ),
         menuSubItem(
-          text = "Characterisation",
-          tabName = "tableone"
+          text = "Prostate Characteristics",
+          tabName = "prostate_characteristics"
         )
 
       ),
+    menuItem(
+      text = "Incidence Rates",
+      tabName = "incidence_rates",
+      menuSubItem(
+        text = "Incidence Rates",
+        tabName = "IR_tables"),
+      menuSubItem(
+        text = "Number of Events",
+        tabName = "N_EVENTS_tables"),
+        menuSubItem(
+          text = "Incidence Rate Ratio",
+          tabName = "IRR_tables"
+        )
+    ),
       
       # menuItem(
       #   text = "Survival Extrapolation",
@@ -168,112 +182,122 @@ ui <- dashboardPage(
             style="display:inline-block; float:right")
         
       )
-      # tabItem(
-      #   tabName = "demographics",
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "demographics_database_name_selector",
-      #       label = "Database",
-      #       choices = unique(attritioncdm$Database),
-      #       selected = unique(attritioncdm$Database),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "demographics_sex_selector",
-      #       label = "Sex",
-      #       choices = unique(demographics$Sex),
-      #       selected = "Both",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "demographics_age_selector",
-      #       label = "Age",
-      #       choices = unique(demographics$Age),
-      #       selected = "All",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   htmlOutput('dt_demographics'),
-      #   
-      #   div(style="display:inline-block",
-      #       downloadButton(
-      #         outputId = "gt_demographics_word",
-      #         label = "Download demographics as word"
-      #       ), 
-      #       style="display:inline-block; float:right")
-      #   
-      # ) ,
-      # 
-      # tabItem(
-      #   tabName = "tableone",
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "tableone_database_name_selector",
-      #       label = "Database",
-      #       choices = unique(attritioncdm$Database),
-      #       selected = unique(attritioncdm$Database),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "tableone_cohort_name_selector",
-      #       label = "Cancer",
-      #       choices = unique(tableone_final$Cancer),
-      #       selected = "Breast",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "tableone_sex_selector",
-      #       label = "Sex",
-      #       choices = unique(tableone_final$Sex),
-      #       selected = "Both",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "tableone_age_selector",
-      #       label = "Age",
-      #       choices = unique(tableone_final$Age),
-      #       selected = "All",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   
-      #   htmlOutput('dt_tableone'),
-      #   
-      #   div(style="display:inline-block",
-      #       downloadButton(
-      #         outputId = "gt_tableone_word",
-      #         label = "Download table as word"
-      #       ), 
-      #       style="display:inline-block; float:right")
-      #   
-      # ),
+      
+      ,
+      
+
+      tabItem(
+        tabName = "IR_tables",
+        div(
+          style = "display: inline-block;vertical-align:top; width: 150px;",
+          pickerInput(
+            inputId = "IR_tables_cohort_name_selector",
+            label = "Study cohort",
+            choices = unique(IR_tables$Group),
+            selected = "Breast Cancer Patients",
+            options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
+            multiple = TRUE
+          )
+        ),
+
+        htmlOutput('dt_ir_tables'),
+
+        div(style="display:inline-block",
+            downloadButton(
+              outputId = "gt_ir_tables_word",
+              label = "Download table as word"
+            ),
+            style="display:inline-block; float:right")
+
+      ),
+      
+      tabItem(
+        tabName = "N_EVENTS_tables",
+        div(
+          style = "display: inline-block;vertical-align:top; width: 150px;",
+          pickerInput(
+            inputId = "N_EVENTS_tables_cohort_name_selector",
+            label = "Study cohort",
+            choices = unique(N_EVENTS_tables$Group),
+            selected = "Breast Cancer Patients",
+            options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
+            multiple = TRUE
+          )
+        ),
+        
+        htmlOutput('dt_n_events_tables'),
+        
+        div(style="display:inline-block",
+            downloadButton(
+              outputId = "gt_n_events_tables_word",
+              label = "Download table as word"
+            ),
+            style="display:inline-block; float:right")
+        
+      ),
+      
+      
+      tabItem(
+        tabName = "IRR_tables",
+        div(
+          style = "display: inline-block;vertical-align:top; width: 150px;",
+          pickerInput(
+            inputId = "IRR_tables_cohort_name_selector",
+            label = "Study cohort",
+            choices = unique(IRR_tables$Group),
+            selected = "Breast Cancer Patients",
+            options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
+            multiple = TRUE
+          )
+        ),
+        
+        htmlOutput('dt_irr_tables'),
+        
+        div(style="display:inline-block",
+            downloadButton(
+              outputId = "gt_irr_tables_word",
+              label = "Download table as word"
+            ),
+            style="display:inline-block; float:right")
+        
+      ),
+      
+      
+
+      ### breast characteristics
+      tabItem(
+        tags$h5("Breast Cancer Characteristics"),
+        tabName = "breast_characteristics",
+        htmlOutput('tbl_breast_characteristics'),
+        tags$hr(),
+        div(
+          style = "display:inline-block",
+          downloadButton(
+            outputId = "gt_breast_characteristics_word",
+            label = "Download table as word"
+          ),
+          style = "display:inline-block; float:right"
+        )
+      ) ,
+      # ### prostate characteristics
+      tabItem(
+        tags$h5("Prostate Cancer Characteristics"),
+        tabName = "prostate_characteristics",
+        htmlOutput('tbl_prostate_characteristics'),
+        tags$hr(),
+        div(
+          style = "display:inline-block",
+          downloadButton(
+            outputId = "gt_prostate_characteristics_word",
+            label = "Download table as word"
+          ),
+          style = "display:inline-block; float:right"
+        )
+      )
+
+
+
+
       # 
       # tabItem(
       #   tabName = "survival_results",
@@ -587,7 +611,6 @@ ui <- dashboardPage(
   
   )
 )
-
 
 
 

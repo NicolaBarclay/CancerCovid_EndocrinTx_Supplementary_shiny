@@ -55,100 +55,151 @@ server <-	function(input, output, session) {
       gtsave(x, file)
     }
   )
-}
-  # 
-  # 
-  # # demographics --------
-  # 
-  # get_demographics <- reactive({
-  #   
-  #   table <- demographics %>% 
-  #     filter(Sex %in% input$tableone_sex_selector) %>% 
-  #     filter(Age %in% input$tableone_age_selector) 
-  #   
-  #   selected_columns <- c("Description", input$demographics_database_name_selector)
-  #   table <- table[, selected_columns, drop = FALSE]
-  #   
-  #   table
-  #   
-  # }) 
-  # 
-  # 
-  # output$dt_demographics <- renderText(kable(get_demographics()) %>%
-  #                                        kable_styling("striped", full_width = F) )
-  # 
-  # 
-  # output$gt_demographics_word <- downloadHandler(
-  #   filename = function() {
-  #     "demographics.docx"
-  #   },
-  #   content = function(file) {
-  #     x <- gt(get_demographics())
-  #     gtsave(x, file)
-  #   }
-  # )  
-  # 
-  # 
-  # # table one --------
-  # 
-  # get_table_one <- reactive({
-  #   
-  #   table <- tableone_final %>% 
-  #     filter(Cancer %in% input$tableone_cohort_name_selector) %>% 
-  #     filter(Sex %in% input$tableone_sex_selector) %>% 
-  #     filter(Age %in% input$tableone_age_selector) 
-  #   
-  #   selected_columns <- c("Description", input$tableone_database_name_selector)
-  #   table <- table[, selected_columns, drop = FALSE]
-  #   
-  #   table
-  #   
-  # }) 
-  # 
-  # 
-  # output$dt_tableone <- renderText(kable(get_table_one()) %>%
-  #                                    kable_styling("striped", full_width = F) )
-  # 
-  # 
-  # output$gt_tableone_word <- downloadHandler(
-  #   filename = function() {
-  #     "table_one.docx"
-  #   },
-  #   content = function(file) {
-  #     x <- gt(get_table_one())
-  #     gtsave(x, file)
-  #   }
-  # )  
-  # 
-  # 
-  # # gof results --------
-  # get_gof <- reactive({
-  #   
-  #   table <- GOFResults %>% 
-  #     filter(Database %in% input$gof_database_selector) %>% 
-  #     filter(Cancer %in% input$gof_cohort_name_selector) %>% 
-  #     filter(Sex %in% input$gof_sex_selector) %>% 
-  #     filter(Age %in% input$gof_age_selector) 
-  #   
-  #   table
-  #   
-  # }) 
-  # 
-  # 
-  # output$dt_gof <- renderText(kable(get_gof()) %>%
-  #                               kable_styling("striped", full_width = F) )
-  # 
-  # 
-  # output$gt_gof_word <- downloadHandler(
-  #   filename = function() {
-  #     "gof.docx"
-  #   },
-  #   content = function(file) {
-  #     x <- gt(get_gof())
-  #     gtsave(x, file)
-  #   }
-  # )  
-  # 
+
+ 
+
+  # Breast Characteristics --------
+
+output$tbl_breast_characteristics <- renderText(kable(Breast_characteristics_table) %>%
+                                       kable_styling("striped", full_width = F) )
+
+
+output$gt_breast_characteristics_word <- downloadHandler(
+  filename = function() {
+    "breast_characteristics.docx"
+  },
+  content = function(file) {
+    x <- gt(Breast_characteristics_table)
+    gtsave(x, file)
+  }
+)
+
+
+# Prostate Characteristics --------
+
+output$tbl_prostate_characteristics <- renderText(kable(Prostate_characteristics_table) %>%
+                                                  kable_styling("striped", full_width = F) )
+
+
+output$gt_prostate_characteristics_word <- downloadHandler(
+  filename = function() {
+    "prostate_characteristics.docx"
+  },
+  content = function(file) {
+    x <- gt(Prostate_characteristics_table)
+    gtsave(x, file)
+  }
+)
+
+
+
+  # # INCIDENCE RATE TABLES --------
+
+  get_ir_tables <- reactive({
+
+    table <- IR_tables %>%
+      filter(Group %in% input$IR_tables_cohort_name_selector) 
+
+    table
+
+  })
+
+
+  output$dt_ir_tables <- renderText(kable(get_ir_tables()) %>%
+                                     kable_styling("striped", full_width = F) )
+
+
+  output$gt_ir_tables_word <- downloadHandler(
+    filename = function() {
+      "ir_tables.docx"
+    },
+    content = function(file) {
+      x <- gt(get_ir_tables())
+      gtsave(x, file)
+    }
+  )
+  
+  # # N EVENT TABLES --------
+  
+  get_n_events_tables <- reactive({
+    
+    table <- N_EVENTS_tables %>%
+      filter(Group %in% input$N_EVENTS_tables_cohort_name_selector) 
+    
+    table
+    
+  })
+  
+  
+  output$dt_n_events_tables <- renderText(kable(get_n_events_tables()) %>%
+                                      kable_styling("striped", full_width = F) )
+  
+  
+  output$gt_n_events_tables_word <- downloadHandler(
+    filename = function() {
+      "n_event_tables.docx"
+    },
+    content = function(file) {
+      x <- gt(get_n_events_tables())
+      gtsave(x, file)
+    }
+  )
+  
+  # # INCIDENCE RATE RATIO TABLES --------
+  
+  get_irr_tables <- reactive({
+    
+    table <- IRR_tables %>%
+      filter(Group %in% input$IRR_tables_cohort_name_selector) 
+    
+    table
+    
+  })
+  
+  
+  output$dt_irr_tables <- renderText(kable(get_irr_tables()) %>%
+                                      kable_styling("striped", full_width = F) )
+  
+  
+  output$gt_irr_tables_word <- downloadHandler(
+    filename = function() {
+      "irr_tables.docx"
+    },
+    content = function(file) {
+      x <- gt(get_irr_tables())
+      gtsave(x, file)
+    }
+  )
+  
+# 
+#   # gof results --------
+#   get_gof <- reactive({
+# 
+#     table <- GOFResults %>%
+#       filter(Database %in% input$gof_database_selector) %>%
+#       filter(Cancer %in% input$gof_cohort_name_selector) %>%
+#       filter(Sex %in% input$gof_sex_selector) %>%
+#       filter(Age %in% input$gof_age_selector)
+# 
+#     table
+# 
+#   })
+# 
+# 
+#   output$dt_gof <- renderText(kable(get_gof()) %>%
+#                                 kable_styling("striped", full_width = F) )
+# 
+# 
+#   output$gt_gof_word <- downloadHandler(
+#     filename = function() {
+#       "gof.docx"
+#     },
+#     content = function(file) {
+#       x <- gt(get_gof())
+#       gtsave(x, file)
+#     }
+#   )
+
   # # extrapolation parameters --------
   # get_param <- reactive({
   #   
@@ -265,4 +316,4 @@ server <-	function(input, output, session) {
 #   
 #   
 #   
-# }
+ }
