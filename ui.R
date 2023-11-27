@@ -44,7 +44,7 @@ ui <- dashboardPage(
 
       ),
     menuItem(
-      text = "Incidence Rates",
+      text = "Incidence Rates and Ratios",
       tabName = "incidence_rates",
       menuSubItem(
         text = "Incidence Rates",
@@ -58,33 +58,7 @@ ui <- dashboardPage(
         )
     ),
       
-      # menuItem(
-      #   text = "Survival Extrapolation",
-      #   tabName = "os",
-      #   menuSubItem(
-      #     text = "Survival Functions",
-      #     tabName = "survival_results"
-      #   ),
-      #   menuSubItem(
-      #     text = "Hazard Functions",
-      #     tabName = "hazard_results"
-      #   ),
-      #   
-      #   menuSubItem(
-      #     text = "Observed v predicted",
-      #     tabName = "predicted_results"
-      #   ),
-      #   
-      #   menuSubItem(
-      #     text = "Goodness of Fit",
-      #     tabName = "gof_results"
-      #   ),
-      #   
-      #   menuSubItem(
-      #     text = "Parameters",
-      #     tabName = "parameters_results"
-      #   ) ),
-      
+    
       # Logo 
       tags$div(
         style = "position: relative; margin-top: -10px; text-align: center; margin-bottom: 0;",
@@ -106,33 +80,31 @@ ui <- dashboardPage(
       # background  ------
       tabItem(
         tabName = "background",
-        h3("Long term extrapolation of overall survival for common cancers: a multinational cohort study"),
-        tags$h4(tags$strong("Please note, the results presented here should be considered as
-                                                preliminary and subject to change.")),
+        h3("Collateral effects of the COVID-19 pandemic on endocrine treatments for breast and prostate cancer in the UK: 
+           Implications for bone health"),
+        tags$h4(tags$strong("Presented here are the supplementary tables to accompany the manuscript submitted to 
+                            The Journal of the National Cancer Institute: Cancer Spectrum.")),
         
         tags$h5(
-          "This app is a companion to the study focussing on long term survival extrapolation for eight different cancers
-                          (Breast, Colorectal, Lung, Liver, Stomach, Head & Neck, Prostate, and Pancreas) for a variety of different electronic health records and cancer registries across Europe (Spain, Netherlands, Germany, Norway, Finland, Portugal, Estonia, Switzerland, and the United Kingdom)."),
-        tags$h5(
-          "In the following pages you can find information on the prediction of long term survival using different extrapolation methods. Observed and predicted, median and mean survival and survival as one, five and ten years. A description of the characteristics of the study populations and attrition is also reported. 
-                  All results have been performed for the whole population and for each age group (10 year age bands) and also for each sex (apart from prostate cancer)."),
-        
+          "This app shows: 1) concepts used to define breast and prostate cancer; endocine treatments for 
+          breast and prostate cancer; and endocrine treatment-related side-effects including bisphosphonate 
+          prescriptions, osteopenia, and osteoporosis. 2) Characterisations of breast and prostate cancer
+          patients on endocrine treatments. 3) Incidence rates and incidence rate ratios of endocrine treatment
+          use and treatment-related outcomes before, during and after the COVID-19 pandemic. The study forcusses on
+          electronic health record data from the UK."),
+       
         # HTML('<br>'),
         
-        tags$h5("The results of this study are published in the following journal:"
-        ),
+        tags$h5("The results of this study are under peer review. A pre-print of the manuscript can be found on MedrXiv in the following journal:"),
         tags$ol(
-          tags$li(strong("TBC"),"(",tags$a(href="https://www.ndorms.ox.ac.uk/research/research-groups/Musculoskeletal-Pharmacoepidemiology","Paper Link"),")" )),
+          tags$li(strong("Collateral effects of the COVID-19 pandemic on endocrine treatments for breast and prostate cancer in the UK: implications for bone health"),"(",tags$a(href="https://www.medrxiv.org/content/10.1101/2023.11.09.23298305v1","Paper Link"),")" )),
         
         tags$h5("The analysis code used to generate these results can be found",
-                tags$a(href="https://github.com/oxford-pharmacoepi", "here"),
-                ".The cohort diagnostics including the clinical codelists for each of the 8 cancers can be found",
-                tags$a(href="https://dpa-pde-oxford.shinyapps.io/CancerExtrapolationDiagnostics/", "here")
-                
-        ),
+                tags$a(href="https://github.com/oxford-pharmacoepi/CancerCovidEndocrineTx", "here"),
+                 ),
         
         tags$h5("Any questions regarding these results or problems with this shiny app please contact",
-                tags$a(href="mailto:danielle.newby@ndorms.ox.ac.uk", "Danielle Newby")
+                tags$a(href="mailto:nicola.barclay@ndorms.ox.ac.uk", "Nicola Barclay")
                 
         ),
         
@@ -144,7 +116,7 @@ ui <- dashboardPage(
       
       
       tabItem(
-        tags$h5("Clinical codelists for cancers"),
+        tags$h5("Clinical codelists for breast and prostate cancers; endocrine treatments; and treatment related outcomes"),
         tabName = "cohort_concepts",
         htmlOutput('tbl_codelists'),
         tags$hr(),
@@ -160,6 +132,7 @@ ui <- dashboardPage(
       
       tabItem(
         tabName = "cohort_attrition",
+        tags$h5("Breast / prostate cancer patient starting counts, final counts after applying excision criteria, and reasons for exclusion"),
         div(
           style = "display: inline-block;vertical-align:top; width: 150px;",
           pickerInput(
@@ -188,6 +161,7 @@ ui <- dashboardPage(
 
       tabItem(
         tabName = "IR_tables",
+        tags$h5("Incidence Rates (95% confidence intervals) per 100,000 person months of endocrine treatments in breast/prostate cancer patients; and treatment related outcomes"),
         div(
           style = "display: inline-block;vertical-align:top; width: 150px;",
           pickerInput(
@@ -213,6 +187,7 @@ ui <- dashboardPage(
       
       tabItem(
         tabName = "N_EVENTS_tables",
+        tags$h5("Number of events and person months (in parentheses) of endocrine treatments in breast/prostate cancer patients; and treatment related outcomes, used to calcuate incidence rates"),
         div(
           style = "display: inline-block;vertical-align:top; width: 150px;",
           pickerInput(
@@ -239,6 +214,7 @@ ui <- dashboardPage(
       
       tabItem(
         tabName = "IRR_tables",
+        tags$h5("Incidence Rate Ratios (95 confidence intervals) of endocrine treatments in breast/prostate cancer patients; and treatment related outcomes, across lockdown periods relative to pre-pandemic rates"),
         div(
           style = "display: inline-block;vertical-align:top; width: 150px;",
           pickerInput(
@@ -266,7 +242,7 @@ ui <- dashboardPage(
 
       ### breast characteristics
       tabItem(
-        tags$h5("Breast Cancer Characteristics"),
+        tags$h5("Characteristics of Breast Cancer Patients on different Endocrine Treatments"),
         tabName = "breast_characteristics",
         htmlOutput('tbl_breast_characteristics'),
         tags$hr(),
@@ -281,7 +257,7 @@ ui <- dashboardPage(
       ) ,
       # ### prostate characteristics
       tabItem(
-        tags$h5("Prostate Cancer Characteristics"),
+        tags$h5("Characteristics of Prostate Cancer Patients on different Endocrine Treatments"),
         tabName = "prostate_characteristics",
         htmlOutput('tbl_prostate_characteristics'),
         tags$hr(),
@@ -296,316 +272,6 @@ ui <- dashboardPage(
       )
 
 
-
-
-      # 
-      # tabItem(
-      #   tabName = "survival_results",
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "survival_database_selector",
-      #       label = "Database",
-      #       choices = unique(survivalResults$Database),
-      #       selected = unique(survivalResults$Database),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "survival_cohort_name_selector",
-      #       label = "Cancer",
-      #       choices = unique(survivalResults$Cancer),
-      #       selected = "Breast",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "survival_sex_selector",
-      #       label = "Sex",
-      #       choices = unique(survivalResults$Sex),
-      #       selected = "Both",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "survival_age_selector",
-      #       label = "Age",
-      #       choices = unique(survivalResults$Age),
-      #       selected = "All",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "survival_method_selector",
-      #       label = "Method",
-      #       choices = unique(survivalResults$Method),
-      #       selected = unique(survivalResults$Method),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   
-      #   div(style="display: inline-block;vertical-align:top; width: 150px;",
-      #       pickerInput(inputId = "surv_plot_facet",
-      #                   label = "Facet by",
-      #                   choices = c("Cancer",
-      #                               "Database",
-      #                               "Sex",
-      #                               "Age"
-      #                   ),
-      #                   selected = c("Cancer", "Database" ),
-      #                   options = list(
-      #                     `actions-box` = TRUE,
-      #                     size = 10,
-      #                     `selected-text-format` = "count > 3"),
-      #                   multiple = TRUE,)
-      #   ),
-      #   div(style="display: inline-block;vertical-align:top; width: 150px;",
-      #       pickerInput(inputId = "surv_plot_group",
-      #                   label = "Colour by",
-      #                   choices = c("Sex",
-      #                               "Age",
-      #                               "Cancer",
-      #                               "Method"),
-      #                   selected = c("Method"),
-      #                   options = list(
-      #                     `actions-box` = TRUE,
-      #                     size = 10,
-      #                     `selected-text-format` = "count > 3"),
-      #                   multiple = TRUE,)
-      #   ),
-      #   
-      #   plotOutput("survivalPlot", width = "85%", height = "75vh"),
-      #   
-      # ),
-      # 
-      # 
-      # tabItem(
-      #   tabName = "hazard_results", # needs to link up to the side bar menu tab names
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "hot_database_selector",
-      #       label = "Database",
-      #       choices = unique(hazOverTimeResults$Database),
-      #       selected = unique(hazOverTimeResults$Database),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "hot_cohort_name_selector",
-      #       label = "Cancer",
-      #       choices = unique(hazOverTimeResults$Cancer),
-      #       selected = "Breast",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "hot_sex_selector",
-      #       label = "Sex",
-      #       choices = unique(hazOverTimeResults$Sex),
-      #       selected = "Both",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "hot_age_selector",
-      #       label = "Age",
-      #       choices = unique(hazOverTimeResults$Age),
-      #       selected = "All",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "hot_method_selector",
-      #       label = "Method",
-      #       choices = unique(hazOverTimeResults$Method),
-      #       selected = unique(hazOverTimeResults$Method),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   
-      #   div(style="display: inline-block;vertical-align:top; width: 150px;",
-      #       pickerInput(inputId = "hot_plot_facet",
-      #                   label = "Facet by",
-      #                   choices = c("Cancer",
-      #                               "Database",
-      #                               "Sex",
-      #                               "Age"
-      #                   ),
-      #                   selected = c("Cancer", "Database" ),
-      #                   options = list(
-      #                     `actions-box` = TRUE,
-      #                     size = 10,
-      #                     `selected-text-format` = "count > 3"),
-      #                   multiple = TRUE,)
-      #   ),
-      #   div(style="display: inline-block;vertical-align:top; width: 150px;",
-      #       pickerInput(inputId = "hot_plot_group",
-      #                   label = "Colour by",
-      #                   choices = c("Sex",
-      #                               "Age",
-      #                               "Cancer",
-      #                               "Method"),
-      #                   selected = c("Method"),
-      #                   options = list(
-      #                     `actions-box` = TRUE,
-      #                     size = 10,
-      #                     `selected-text-format` = "count > 3"),
-      #                   multiple = TRUE,)
-      #   ),
-      #   
-      #   plotOutput("hotPlot", width = "85%", height = "75vh"),
-      #   
-      # ),  
-      # 
-      # 
-      # tabItem(
-      #   tabName = "gof_results",
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "gof_database_selector",
-      #       label = "Database",
-      #       choices = unique(GOFResults$Database),
-      #       selected = unique(GOFResults$Database),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "gof_cohort_name_selector",
-      #       label = "Cancer",
-      #       choices = unique(GOFResults$Cancer),
-      #       selected = "Breast",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "gof_sex_selector",
-      #       label = "Sex",
-      #       choices = unique(GOFResults$Sex),
-      #       selected = "Both",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "gof_age_selector",
-      #       label = "Age",
-      #       choices = unique(GOFResults$Age),
-      #       selected = "All",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = FALSE
-      #     )
-      #   ),
-      #   htmlOutput('dt_gof'),
-      #   
-      #   div(style="display:inline-block",
-      #       downloadButton(
-      #         outputId = "gt_gof_word",
-      #         label = "Download gof results as word"
-      #       ), 
-      #       style="display:inline-block; float:right")
-      # ),
-      # 
-      # tabItem(
-      #   tabName = "parameters_results",
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "param_database_selector",
-      #       label = "Database",
-      #       choices = unique(ExtrpolationParameters$Database),
-      #       selected = unique(ExtrpolationParameters$Database),
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "param_cohort_name_selector",
-      #       label = "Cancer",
-      #       choices = unique(ExtrpolationParameters$Cancer),
-      #       selected = "Breast",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "param_sex_selector",
-      #       label = "Sex",
-      #       choices = unique(ExtrpolationParameters$Sex),
-      #       selected = "Both",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   
-      #   div(
-      #     style = "display: inline-block;vertical-align:top; width: 150px;",
-      #     pickerInput(
-      #       inputId = "param_age_selector",
-      #       label = "Age",
-      #       choices = unique(ExtrpolationParameters$Age),
-      #       selected = "All",
-      #       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
-      #       multiple = TRUE
-      #     )
-      #   ),
-      #   
-      #   DTOutput("dt_param"),
-      #   #htmlOutput('dt_param'),
-      #   
-      #   div(style="display:inline-block",
-      #       downloadButton(
-      #         outputId = "gt_param_word",
-      #         label = "Download model parameters as word"
-      #       ), 
-      #       style="display:inline-block; float:right")
-      # )
-      # 
-      # # more tabs here
-    
     
   )  
   
