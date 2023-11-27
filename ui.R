@@ -95,7 +95,7 @@ ui <- dashboardPage(
        
         # HTML('<br>'),
         
-        tags$h5("The results of this study are under peer review. A pre-print of the manuscript can be found on MedrXiv in the following journal:"),
+        tags$h5("The results of this study are under peer review. A pre-print of the manuscript can be found on MedrXiv here:"),
         tags$ol(
           tags$li(strong("Collateral effects of the COVID-19 pandemic on endocrine treatments for breast and prostate cancer in the UK: implications for bone health"),"(",tags$a(href="https://www.medrxiv.org/content/10.1101/2023.11.09.23298305v1","Paper Link"),")" )),
         
@@ -214,7 +214,7 @@ ui <- dashboardPage(
       
       tabItem(
         tabName = "IRR_tables",
-        tags$h5("Incidence Rate Ratios (95 confidence intervals) of endocrine treatments in breast/prostate cancer patients; and treatment related outcomes, across lockdown periods relative to pre-pandemic rates"),
+        tags$h5("Incidence Rate Ratios (95% confidence intervals) of endocrine treatments in breast/prostate cancer patients; and treatment related outcomes, across lockdown periods relative to pre-pandemic rates"),
         div(
           style = "display: inline-block;vertical-align:top; width: 150px;",
           pickerInput(
